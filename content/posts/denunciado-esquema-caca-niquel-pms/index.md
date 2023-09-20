@@ -1,7 +1,6 @@
 ---
 categories: [""]
 date: 2023-09-19T23:11:31-03:00
-draft: true
 title: "Denunciado um possível novo esquema de caça-níqueis com envolvimento de PMs"
 url: ""
 ---
