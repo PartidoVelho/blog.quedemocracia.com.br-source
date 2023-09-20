@@ -1,0 +1,26 @@
+# Change baseurl before deploy
+baseURL = "/"
+relativeURLs = "true"
+
+# Theme i18n support
+# Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk, ar
+
+languageCode = "pt-br"
+title = "Blog - Mas que Democracia?!"
+favicon = "/favicon.png"
+
+defaultContentLanguage = "pt"
+
+theme = "bootstrap"
+
+# Change it to your Disqus shortname before using
+disqusShortname = "blog-quedemocracia"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      #thanks to https://stackoverflow.com/a/64561626 🥹
+      
+[permalinks]
+  post = "/:year/:month/:title/"
